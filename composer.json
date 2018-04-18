@@ -1,0 +1,29 @@
+{
+  "name": "anacreation/events",
+  "description": "Event management module",
+  "type": "lib",
+  "authors": [
+	{
+	  "name": "Xavier Au",
+	  "email": "xavier.au@anacreation.com"
+	}
+  ],
+  "require": {
+	"php": ">=7.1.0",
+	"laravel/framework": "5.5.*",
+	"spatie/laravel-medialibrary": "^7.0.0"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Anacreation\\Events\\": "src/"
+	}
+  },
+  "minimum-stability": "dev",
+  "extra": {
+	"laravel": {
+	  "providers": [
+		"Anacreation\\Events\\EventsServiceProvider"
+	  ]
+	}
+  }
+}
